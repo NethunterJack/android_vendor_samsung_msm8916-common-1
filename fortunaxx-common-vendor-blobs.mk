@@ -8,9 +8,7 @@ PRODUCT_COPY_FILES += \
 	
 # Sensors
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-	$(LOCAL_PATH)/lib/libk303c.so:system/lib/libk303c.so \
-	$(LOCAL_PATH)/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat
+	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
 	
 # FM Radio
 PRODUCT_COPY_FILES += \
@@ -129,7 +127,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
 	$(LOCAL_PATH)/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
 	$(LOCAL_PATH)/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-	$(LOCAL_PATH)/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
+	$(LOCAL_PATH)/lib/lib_SamsungRec_V03010.so:system/lib/lib_SamsungRec_V03010.so \
 	$(LOCAL_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	$(LOCAL_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
