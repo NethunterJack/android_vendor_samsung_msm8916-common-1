@@ -1,4 +1,4 @@
-LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
+LOCAL_PATH := vendor/samsung/msm8916-common/proprietary
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
